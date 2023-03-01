@@ -1,0 +1,25 @@
+{
+  "name": "node-pololu-maestro",
+  "version": "0.0.0",
+  "description": "A library for communicating with Pololu Maestro controllers.",
+  "license": "MIT",
+  "homepage": "https://github.com/morkai/node-pololu-maestro",
+  "author": {
+    "name": "Łukasz Walukiewicz",
+    "email": "lukasz@miracle.systems",
+    "url": "http://miracle.systems/"
+  },
+  "bugs": "https://github.com/morkai/node-pololu-maestro/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/morkai/node-pololu-maestro.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "h5.buffers": "github:morkai/h5.buffers",
+    "serialport": "^10.5.0"
+  }
+}
